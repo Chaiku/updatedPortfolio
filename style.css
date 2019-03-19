@@ -30,7 +30,7 @@ body, html {
 
 .bannerP {
 text-align: center;
-font-size: 1.5rem;
+font-size: 1.9rem;
 margin: 0 auto;
 
     
@@ -54,4 +54,8 @@ border-radius: 15px 50px;
     border-radius: 15px 50px;
     height: 70%;
 
+}
+
+h6 {
+    text-decoration: underline;
 }
