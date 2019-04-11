@@ -42,11 +42,14 @@ background-color: white;
 border-radius: 15px 50px;
 }
 
-.about {
+.about, .languages, .topRow {
 background-color: white;
 border-radius: 15px 50px;
+margin: 5px;
 
 }
+
+
 
 .projects {
     margin: 0 auto;
