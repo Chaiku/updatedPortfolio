@@ -4,13 +4,16 @@ body, html {
 
 }
 
+
 .wrapper {
     background-color: slategray;
     border: 1px solid black;
     padding: 30px;
     width: 100%;
+    margin-left: 0px;
 
 }
+
 
 .contact { 
     background-color: white;
