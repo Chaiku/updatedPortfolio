@@ -1,67 +1,40 @@
-body, html {
-    background-color: slategray;
-    
-
+html, body {
+    height: 100%;  
 }
 
+.derp {
+    background-color: lightblue;
+}
+
+li {
+    display: list-item;
+}
 
 .wrapper {
-    background-color: slategray;
-    border: 1px solid black;
-    padding: 30px;
     width: 100%;
-    margin-left: 0px;
+    background-color: lightblue;
 
 }
 
+.profBody, .projects {
+    background-color: lightblue;
+}
 
-.contact { 
+.about, .languages, .proj {
     background-color: white;
-}
-
-
-.header {
- text-align: center;
- background-color: white;
- margin: 0 auto;
- font-size: 7.5rem;
- border-bottom: 2px solid black;
- padding-bottom: 3px;
- width: 85%;
-}
-
-
-.bannerP {
-text-align: center;
-font-size: 1.9rem;
-margin: 0 auto;
-
-    
-}
-
-.banner {
-margin: 10px;
-background-color: white;
-border-radius: 15px 50px;
-}
-
-.about, .languages, .topRow {
-background-color: white;
-border-radius: 15px 50px;
-margin: 5px;
-
-}
-
-
-
-.projects {
-    margin: 0 auto;
-    background-color: white;
+    margin: 5px;
     border-radius: 15px 50px;
-    height: 70%;
-
 }
+
 
 h6 {
     text-decoration: underline;
+}
+
+
+.card-footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
