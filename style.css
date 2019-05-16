@@ -2,26 +2,20 @@ html, body {
     height: 100%;  
 }
 
-.derp {
-    background-color: lightblue;
-}
 
-li {
-    display: list-item;
-}
-
-.wrapper {
-    width: 100%;
-    background-color: lightblue;
-
+.backGround {
+    background-color: rgb(150, 188, 201);
+    height: 100%;
 }
 
 .profBody, .projects {
-    background-color: lightblue;
+    background-color: rgb(150, 188, 201);
+    padding: 15px;
 }
 
 .about, .languages, .proj {
-    background-color: white;
+    background-color: rgb(32, 49, 43);
+    color: white;
     margin: 5px;
     border-radius: 15px 50px;
 }
@@ -31,10 +25,18 @@ h6 {
     text-decoration: underline;
 }
 
+.navbar {
+    color: white;
+}
 
-.card-footer {
+
+
+footer {
     text-align: center;
+    width: 100%;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    background-color: rgb(32, 49, 43);
+    color: white;
 }
+
